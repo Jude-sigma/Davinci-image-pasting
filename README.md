@@ -12,13 +12,20 @@ Works on Windows with DaVinci Resolve 18.5 or newer, free or Studio.
 
 ## Install
 
-Run install.ps1 (right-click, Run with PowerShell), then restart Resolve.
+Open PowerShell (search for it in the Start menu) and run:
 
-Or copy the "Paste Clipboard Media" folder to:
+    irm https://raw.githubusercontent.com/Jude-sigma/Davinci-image-pasting/main/install.ps1 | iex
+
+Then restart Resolve. The scripts show up under Workspace > Scripts > Paste Clipboard Media.
+
+To update, run the same command again. Your settings are kept.
+
+Manual install: click Code > Download ZIP on this page, extract it, right-click install.ps1
+and choose Run with PowerShell. Or copy the "Paste Clipboard Media" folder yourself to:
 
     %APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Utility
 
-The scripts then show up under Workspace > Scripts > Paste Clipboard Media.
+Once installed, the downloaded files can be deleted.
 
 
 ## Shortcut
